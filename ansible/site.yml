@@ -2,3 +2,7 @@
 - hosts: bg
   roles:
   - sysmd
+
+- hosts: stockish
+  roles:
+  - systemd
